@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 //匯入能讓各瀏覽器表現一致的樣式
 import 'normalize.css';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './service-Worker';
 
 
 ReactDOM.render(
