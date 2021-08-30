@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 //匯入能讓各瀏覽器表現一致的樣式
 import 'normalize.css';
-import * as serviceWorker from './service-Worker';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
 ReactDOM.render(
@@ -21,4 +21,4 @@ ReactDOM.render(
 reportWebVitals();
 
 //將unregister改成register
-serviceWorker.register();
+serviceWorkerRegistration.unregister();
